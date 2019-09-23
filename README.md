@@ -1,2 +1,2 @@
 # hppenely laravel blog
-this is my readme
+this is my readme.md
