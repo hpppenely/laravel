@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix'=>'test'], function () {
+	Route::get('test1', 'TestController@test1');
+});
